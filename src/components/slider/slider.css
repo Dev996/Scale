@@ -1,0 +1,60 @@
+.slider-box {
+    display: flex;
+    margin-top: .75rem;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    min-width: 25rem;
+}
+
+.slider-track {
+    height: 10px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.slider-fill {
+    height: 100%;
+    background-color: #4caf50;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider-fill.range {
+    background-color: #2196f3;
+}
+
+.slider-thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.input-field {
+    margin-top: 10px;
+    width: 60px;
+    text-align: center;
+}
+
+/* Add hover styles for better user experience */
+.slider-thumb:hover {
+    border-color: #2196f3;
+}
+
+.slider-input-1 {
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+
+.d-flex {
+    display: flex;
+}
